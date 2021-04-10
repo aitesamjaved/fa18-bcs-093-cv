@@ -44,13 +44,7 @@
       $grid.isotope();
     });
 
-    // $(".partners-filter li a").on('click', function(e){
-    //   e.preventDefault();
-    //   $(".partners-filter li a.active").removeClass('active');
-    //   $(this).addClass('active');
-    //   var filter = $(this).data('filter');
-    //   $grid.isotope({ filter: filter });
-    // });
+
 
     $('.clients-filter-dropdown select').on('change', function(){
 
